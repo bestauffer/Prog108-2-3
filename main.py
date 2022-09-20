@@ -22,7 +22,7 @@ else:
   print("It's a rectangle!!!")
 print()
 print("length:", length)
-print("weidth:", width)
+print("width:", width)
 print("area:", area)
 print("perimeter:", perimeter)
 print()
