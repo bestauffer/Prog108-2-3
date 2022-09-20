@@ -2,13 +2,13 @@
 
 # INSTRUCTIONS
 
-# Create a simple program on your own to ask for the length and width of a rectangle/square. 
+# Create a simple program on your own to ask for the length and width of a rectangle/square.
 
-# Then calculate the area and perimeter and display the results. 
+# Then calculate the area and perimeter and display the results.
 
 # There is no starting file for this activity.
 
-# Consider user experience and output - include a title, and a farewell greeting. 
+# Consider user experience and output - include a title, and a farewell greeting.
 print("Lets find the area & perimeter of a rectangle!!!")
 print()
 length = int(input('Enter the length: '))
@@ -22,7 +22,7 @@ else:
   print("It's a rectangle!!!")
 print()
 print("length:", length)
-print("width:", width)
+print("weidth:", width)
 print("area:", area)
 print("perimeter:", perimeter)
 print()
