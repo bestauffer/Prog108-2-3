@@ -11,11 +11,11 @@
 # Consider user experience and output - include a title, and a farewell greeting.
 print("Lets find the area & perimeter of a rectangle!!!")
 print()
-length = int(input('Enter the length: '))
-width = int(input('Enter the width:  '))
+length = int(input('Enter the length: \u001b[1m'))
+width = int(input('\u001b[0mEnter the width:  \u001b[1m'))
 area = length * width
 perimeter = 2*(length + width)
-print("====================Results====================")
+print("\u001b[0m====================Results====================")
 if length == width:
   print("It's a square!!!")
 else:
